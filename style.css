@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    height: 80px;
+    /* background-color: orange; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 40px;
+    border-bottom: 1px solid black;
+}
+.header-name {
+    /* display: inline-block; */
+    font-size: 42px;
+    font-family: DotGothic16;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.header-side {
+    /* display: inline-block; */
+    margin: 0;
+    padding: 0;
+}
+.header-side-name {
+    display: inline-block;
+    font-family: DotGothic16;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 8px;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.content1 {
+    margin: 0;
+    padding: 0 40px;
+    border-bottom: 1px solid black;
+}
+.content1-top {
+    margin: 0 0 70px 0;
+    padding: 0;
+}
+.content1-heading {
+    font-size: 120px;
+    font-family: DotGothic16;
+    text-align: center;
+    line-height: 120px;
+    font-weight: 400;
+}
+.content1-img {
+    width: 100%;
+}
+.content1-mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400px;
+}
+.content1-portfolio {
+    /* display: inline-block; */
+    font-size: 48px;
+    font-weight: 400;
+    font-family: DotGothic16;
+    text-wrap: nowrap;
+}
+.content1-portfolio-desc {
+    /* display: inline-block; */
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: Archivo;
+}
+.content2 {
+    margin: 0;
+    padding: 0 40px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project {
+    width: 416px;
+    height: 333px;
+}
+.project-img {
+    width: 416px;
+    height: 277px;
+}
+.project-details {
+
+}
+.project-name {
+    font-family: Archivo;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.project-desc {
+    font-family: Archivo;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
